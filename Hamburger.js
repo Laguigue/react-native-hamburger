@@ -260,7 +260,7 @@ export default class Hamburger extends Component {
 
         return (
             <TouchableWithoutFeedback
-                onPress={()=> {this.props.onPress ? this.props.onPress() : undefined, this._animate()}}>
+                onPress={()=> {this.props.onPress ? this.props.onPress() : undefined}}>
                 <Animated.View style={{
                     width: 35,
                     justifyContent: 'center',
